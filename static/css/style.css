@@ -1,0 +1,156 @@
+*{
+    padding:0;
+    margin:0;
+    list-style:none;
+    text-decoration:none;
+}
+html,body{
+    width:100%;
+    height:100%;
+}
+.wrap {
+    width:100%;
+    height:100%;
+    display: flex;
+    flex-direction:column;
+    overflow:hidden;
+    background:#eee;
+}
+.header{
+    height:34px;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    border-bottom:1px solid #ccc;
+    background:#ffff;
+}
+.header span{
+    color:#a1a1a1
+}
+.header span:nth-child(2){
+    color:#df3348;
+    font-size:16px;
+    font-weight: bold;
+}
+.header span:nth-child(3) {
+    display:flex;
+}
+.header span a{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+    color:#a1a1a1;
+    margin-left:3px;
+}
+.header span a .icon{
+    margin-top:2px;     
+}
+.min{
+    flex:1;
+    overflow-y:scroll;
+}
+.list{
+    height:90px;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    background:#fff;
+}
+.list li{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+}
+.list b{
+    font-weight:normal;
+    font-size:9px;
+}
+.produce{
+    margin-top:10px;
+}
+.content{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    background:#fff;
+}
+.content li{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+    border:1px solid #ccc;
+    padding:16px;
+}
+.content li span{
+    font-size:9px;
+}
+.content2{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    background:#fff;
+}
+.content2 li{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+    border:1px solid #ccc;
+    padding:16px;
+}
+.content2 li span{
+    font-size:9px;
+}
+.content3{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    background:#fff;
+}
+.content3 li{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+    border:1px solid #ccc;
+    padding:16px;
+}
+.content3 li span{
+    font-size:9px;
+}
+.content2 li span{
+    font-size:9px;
+}
+.banner{
+    height:70px;
+    margin:10px 0;
+}
+.banner img{
+    width:100%;
+    height:auto;
+}
+.footer{
+    height:35px;
+}
+.bg{
+    color:#e25868;
+}
+.type{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    background:#fff;
+}
+.type li{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+}
+.type li span{
+    font-size:9px;
+    line-height: 16px;
+}
